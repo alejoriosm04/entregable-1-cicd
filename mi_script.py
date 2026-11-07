@@ -2,7 +2,7 @@
 import platform
 import datetime
 
-AUTOR = "LINA SOFÍA BALLESTEROS MERCHÁN | ALEJANDRO RÍOS MUÑOZ"  # Nombres completos del saludo y del README, en el mismo orden; para parejas usa "Nombre 1 | Nombre 2".
+AUTOR = "Lina Sofia Ballesteros Merchan | Alejandro Rios Muñoz"
 
 def main():
     print(f"Autor: {AUTOR}")
