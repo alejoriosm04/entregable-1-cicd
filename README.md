@@ -3,7 +3,8 @@ Primer entregable del curso de CI/CD
 
 ## Integrantes
 
-- Lina Sofia Ballesteros (@linaballesteros) | Alejandro Rios Muñoz (@alejoriosm04)
+- Lina Sofia Ballesteros Merchan | Alejandro Rios Muñoz
+- GitHub: @linaballesteros | @alejoriosm04
 
 ## Preguntas
 
@@ -15,7 +16,7 @@ Los eventos que configuramos fueron 3:
 - `pull_request` a la rama `main`: para realizar la verificacion antes de hacer un merge a la rama `main`.
 - `workflow_dispatch`: activar manualmente la verificacion nosotros cuando lo necesitemos.
 
-Se realizan 3 steps, imprimir un mensaje, configurar python y ejecutar un script de python que muestra información en un mensaje.
+Se realizan 4 steps: hacer checkout del repositorio, imprimir un mensaje, configurar Python y ejecutar un script de Python que muestra información en un mensaje.
 
 ### ¿Qué sistema operativo utiliza el runner ubuntu-latest y por qué puede ejecutar tu workflow aunque tu computadora sea Windows o macOS? ¿Qué relación tiene el runner con el shell de los pasos run?
 
